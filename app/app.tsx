@@ -7,7 +7,8 @@ import React, { useState, useEffect } from "react"
 import { AppRegistry, YellowBox } from "react-native"
 import { StatefulNavigator, BackButtonHandler, exitRoutes } from "./navigation"
 import { StorybookUIRoot } from "../storybook"
-import { RootStore, RootStoreProvider, setupRootStore } from "./models/root-store"
+import { Provider } from "mobx-react"
+import { RootStore, RootStoreProvider, setupRootStore, useStores } from "./models/root-store"
 
 import { contains } from "ramda"
 

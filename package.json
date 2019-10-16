@@ -27,6 +27,7 @@
     "@react-native-community/async-storage": "^1.5.1",
     "apisauce": "1.0.3",
     "i18n-js": "^3.0.11",
+    "lodash-ts": "^1.2.7",
     "lodash.throttle": "4.1.1",
     "mobx": "^4.13.0",
     "mobx-react": "^6.1.1",
@@ -88,10 +89,6 @@
   },
   "jest": {
     "preset": "react-native",
-    "moduleNameMapper": {
-      "^[./a-zA-Z0-9$_-]+\\.(bmp|gif|jpg|jpeg|png|psd|svg|webp|ttf|otf)$": "RelativeImageStub",
-      "^React$": "<rootDir>/node_modules/react"
-    },
     "setupFiles": [
       "<rootDir>/node_modules/react-native/jest/setup.js",
       "<rootDir>/test/setup.ts"
